@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated image processing results
+output/processed/
+
+# Dataset directories
+data/raw/
+data/processed/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+Desktop.ini
